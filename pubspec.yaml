@@ -1,5 +1,5 @@
 name: lensforge
-description: "A new Flutter project."
+description: "LensForge is a Flutter mobile application that scans real-world objects using device cameras and generates 3D models. The app features a sleek, modern UI with advanced scanning capabilities and 3D model interaction."
 publish_to: 'none'
 version: 1.0.0+1
 
