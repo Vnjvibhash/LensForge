@@ -1,5 +1,5 @@
 name: lensforge
-description: "LensForge is a Flutter mobile application that scans real-world objects using device cameras and generates 3D models. The app features a sleek, modern UI with advanced scanning capabilities and 3D model interaction."
+description: "Transform your world into digital masterpieces with Innovateria, a cutting-edge Flutter app that effortlessly scans real-world objects with your device camera and instantly generates stunning, editable 3D models."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,12 +10,19 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_launcher_icons: ^0.14.4
+  lottie: ^3.3.1
+  camera: ^0.11.2
+  path_provider: ^2.1.5
+  google_fonts: ^6.3.1
+  sensors_plus: ^7.0.0
+  permission_handler: ^12.0.1
+  flutter_3d_controller: ^2.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
 
 flutter:
   uses-material-design: true
@@ -27,3 +34,4 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path: assets/images/lensforge_logo.png
+  remove_alpha_ios: true
