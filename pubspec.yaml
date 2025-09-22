@@ -1,4 +1,4 @@
-name: objexscanner
+name: objectscan
 description: "Transform your world into digital masterpieces with Innovateria, a cutting-edge Flutter app that effortlessly scans real-world objects with your device camera and instantly generates stunning, editable 3D models."
 publish_to: 'none'
 version: 1.0.0+1
@@ -37,3 +37,4 @@ flutter_launcher_icons:
   ios: true
   image_path: assets/images/logo.png
   remove_alpha_ios: true
+

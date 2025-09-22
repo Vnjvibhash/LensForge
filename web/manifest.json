@@ -1,6 +1,6 @@
 {
-    "name": "objexscanner",
-    "short_name": "objexscanner",
+    "name": "objectscan",
+    "short_name": "objectscan",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

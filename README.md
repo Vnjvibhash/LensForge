@@ -1,7 +1,7 @@
-# LensForge - 3D Object Scanning App
+# ObjectScan - 3D Object Scanning App
 
 ## Overview
-LensForge is a Flutter mobile application that scans real-world objects using device cameras and generates 3D models. The app features a sleek, modern UI with advanced scanning capabilities and 3D model interaction.
+ObjectScan is a Flutter mobile application that scans real-world objects using device cameras and generates 3D models. The app features a sleek, modern UI with advanced scanning capabilities and 3D model interaction.
 
 ## Core Features (MVP)
 1. **Camera Scanning Interface** - Multi-angle object capture

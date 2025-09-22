@@ -1,4 +1,4 @@
-package `in`.innovateria.objexscanner
+package `in`.innovateria.objectscan
 
 import io.flutter.embedding.android.FlutterActivity
 
