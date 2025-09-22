@@ -1,6 +1,6 @@
 {
-    "name": "lensforge",
-    "short_name": "lensforge",
+    "name": "objexscanner",
+    "short_name": "objexscanner",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -5,10 +5,10 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = lensforge
+PRODUCT_NAME = objexscanner
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = in.innovateria.lensforge
+PRODUCT_BUNDLE_IDENTIFIER = in.innovateria.objexscanner
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2025 in.innovateria. All rights reserved.

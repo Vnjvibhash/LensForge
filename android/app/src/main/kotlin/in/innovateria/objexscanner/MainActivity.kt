@@ -1,4 +1,4 @@
-package `in`.innovateria.lensforge
+package `in`.innovateria.objexscanner
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "in.innovateria" "\0"
-            VALUE "FileDescription", "lensforge" "\0"
+            VALUE "FileDescription", "objexscanner" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "lensforge" "\0"
+            VALUE "InternalName", "objexscanner" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 in.innovateria. All rights reserved." "\0"
-            VALUE "OriginalFilename", "lensforge.exe" "\0"
-            VALUE "ProductName", "lensforge" "\0"
+            VALUE "OriginalFilename", "objexscanner.exe" "\0"
+            VALUE "ProductName", "objexscanner" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
