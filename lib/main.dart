@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:objectscan/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'ObjectScan - 3D Object Scanning App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      debugShowCheckedModeBanner: false,
+      theme: lightTheme,
+      darkTheme: darkTheme,
+      themeMode: ThemeMode.system,
       home: const HomeScreen(),
     );
   }
