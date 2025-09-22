@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ObjexScanner - 3D Object Scanning App',
+      title: 'ObjectScan - 3D Object Scanning App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -27,12 +27,12 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("ObjexScanner - 3D Object Scanning App"),
+        title: const Text("ObjectScan - 3D Object Scanning App"),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       body: Center(
         child: Text(
-          "Welcome to ObjexScanner - 3D Object Scanning App",
+          "Welcome to ObjectScan - 3D Object Scanning App",
           style: Theme.of(context).textTheme.headlineMedium?.copyWith(
             color: Theme.of(context).colorScheme.primary,
             fontWeight: FontWeight.bold,
