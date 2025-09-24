@@ -15,9 +15,9 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     Future.delayed(const Duration(seconds: 3), () {
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const HomeScreen()),
-        );
+      Navigator.of(
+        context,
+      ).pushReplacement(MaterialPageRoute(builder: (_) => const HomeScreen()));
     });
   }
 
@@ -26,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
     final theme = Theme.of(context);
 
     return Scaffold(
-      backgroundColor: theme.colorScheme.primary.withAlpha(30),
+      backgroundColor: theme.colorScheme.primary.withOpacity(0.1),
       body: SafeArea(
         child: Center(
           child: Padding(
@@ -34,28 +34,45 @@ class _SplashScreenState extends State<SplashScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  'assets/images/logo.png',
-                  width: 200,
-                  height: 200,
-                ),
-                const SizedBox(height: 32),
+                // App Logo
+                Image.asset('assets/images/logo.png', width: 180, height: 180),
+                const SizedBox(height: 28),
+
+                // App Title
                 Text(
-                  'Your Trusted Medicine Reminder App',
+                  'ObjectScan',
                   textAlign: TextAlign.center,
-                  style: theme.textTheme.titleMedium?.copyWith(
-                    color: theme.colorScheme.onPrimary.withOpacity(0.85),
-                    fontStyle: FontStyle.italic,
-                    letterSpacing: 1.2,
+                  style: theme.textTheme.headlineMedium?.copyWith(
+                    color: theme.colorScheme.primary,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 1.5,
                   ),
                 ),
-                const SizedBox(height: 48),
-                const Text(
-                  'Ensuring that you never miss a dose for healthier days ahead.',
+
+                const SizedBox(height: 12),
+
+                // Subtitle
+                Text(
+                  '3D Object Scanning App',
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.white70, fontSize: 16),
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    color: theme.colorScheme.onBackground.withOpacity(0.8),
+                    fontStyle: FontStyle.italic,
+                  ),
                 ),
+
                 const SizedBox(height: 40),
+
+                // Tagline
+                const Text(
+                  'Capture. Reconstruct. Explore.\nTurning real-world objects into interactive 3D models.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.black54, fontSize: 16),
+                ),
+
+                const SizedBox(height: 50),
+
+                // Loading animation
                 Column(
                   children: [
                     Lottie.asset(
@@ -66,9 +83,9 @@ class _SplashScreenState extends State<SplashScreen> {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      'Loading your personalized experience...',
+                      'Initializing ObjectScan...',
                       style: theme.textTheme.bodyMedium?.copyWith(
-                        color: theme.colorScheme.onPrimary.withOpacity(0.7),
+                        color: theme.colorScheme.onBackground.withOpacity(0.7),
                       ),
                     ),
                   ],
